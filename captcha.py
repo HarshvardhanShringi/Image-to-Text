@@ -14,10 +14,7 @@ pyperclip.copy('')
 pyautogui.click(x=393, y=551, clicks=1, interval=0, button='right')
 # #pyautogui.dragTo(602, 549, duration=0.5)
 time.sleep(2)
-pyautogui.click(x=468, y=635, clicks=1, interval=0, button='left')
-#pyautogui.hotkey('ctrl', 'c')
-# time.sleep(2)
-# pyautogui.hotkey('ctrl','c')
+
 time.sleep(1)
 img = ImageGrab.grabclipboard()
 #img.save(Desktop/new_img.jpg)
@@ -28,8 +25,7 @@ img.show()
 time.sleep(2)
 pyautogui.screenshot('foo.png')
 time.sleep(1)
-pyautogui.click(x=1894, y=21, clicks=1, interval=0, button='left')
-pyautogui.moveTo(x=600,y=500,duration=1)
+
 
 import cv2
 
